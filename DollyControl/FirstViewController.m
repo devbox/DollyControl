@@ -8,7 +8,10 @@
 
 #import "FirstViewController.h"
 
+#import "AppSock.h"
+
 @implementation FirstViewController
+@synthesize activityIndicator;
 
 - (void)didReceiveMemoryWarning
 {
@@ -26,6 +29,7 @@
 
 - (void)viewDidUnload
 {
+    [self setActivityIndicator:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -61,4 +65,26 @@
     }
 }
 
+
+- (IBAction)switchValueChanged:(id)sender {
+    
+    AppSock *sendStatus = [[AppSock alloc] init];
+    
+    UISwitch *mySwitch = sender;
+    
+    if (mySwitch.on){
+        [self.activityIndicator startAnimating];
+        
+        sendStatus.ignition = 1;
+        [sendStatus motor];
+
+    }
+    else{
+        [self.activityIndicator stopAnimating];
+        
+        sendStatus.ignition = 0;
+        [sendStatus motor];
+        
+    }
+}
 @end

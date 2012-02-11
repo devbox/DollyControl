@@ -21,6 +21,7 @@
 		075AB69E14E6B893004AD635 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 075AB69D14E6B893004AD635 /* SecondViewController.m */; };
 		075AB6A014E6B893004AD635 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 075AB69F14E6B893004AD635 /* second.png */; };
 		075AB6A214E6B893004AD635 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 075AB6A114E6B893004AD635 /* second@2x.png */; };
+		075AB6AE14E6C6A3004AD635 /* AppSock.m in Sources */ = {isa = PBXBuildFile; fileRef = 075AB6AD14E6C6A3004AD635 /* AppSock.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,22 +29,24 @@
 		075AB67D14E6B893004AD635 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		075AB67F14E6B893004AD635 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		075AB68114E6B893004AD635 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		075AB68514E6B893004AD635 /* DollyControl-Info.plist */ = {isa = PBXFileReference; path = "DollyControl-Info.plist"; sourceTree = "<group>"; };
+		075AB68514E6B893004AD635 /* DollyControl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DollyControl-Info.plist"; sourceTree = "<group>"; };
 		075AB68714E6B893004AD635 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		075AB68914E6B893004AD635 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		075AB68B14E6B893004AD635 /* DollyControl-Prefix.pch */ = {isa = PBXFileReference; path = "DollyControl-Prefix.pch"; sourceTree = "<group>"; };
-		075AB68C14E6B893004AD635 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		075AB68B14E6B893004AD635 /* DollyControl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DollyControl-Prefix.pch"; sourceTree = "<group>"; };
+		075AB68C14E6B893004AD635 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		075AB68D14E6B893004AD635 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		075AB69014E6B893004AD635 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
 		075AB69314E6B893004AD635 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		075AB69514E6B893004AD635 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		075AB69514E6B893004AD635 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		075AB69614E6B893004AD635 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		075AB69814E6B893004AD635 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		075AB69A14E6B893004AD635 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		075AB69C14E6B893004AD635 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		075AB69C14E6B893004AD635 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		075AB69D14E6B893004AD635 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		075AB69F14E6B893004AD635 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		075AB6A114E6B893004AD635 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+		075AB6AC14E6C6A3004AD635 /* AppSock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppSock.h; sourceTree = "<group>"; };
+		075AB6AD14E6C6A3004AD635 /* AppSock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppSock.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				075AB69214E6B893004AD635 /* MainStoryboard_iPad.storyboard */,
 				075AB69514E6B893004AD635 /* FirstViewController.h */,
 				075AB69614E6B893004AD635 /* FirstViewController.m */,
+				075AB6AC14E6C6A3004AD635 /* AppSock.h */,
+				075AB6AD14E6C6A3004AD635 /* AppSock.m */,
 				075AB69814E6B893004AD635 /* first.png */,
 				075AB69A14E6B893004AD635 /* first@2x.png */,
 				075AB69C14E6B893004AD635 /* SecondViewController.h */,
@@ -189,6 +194,7 @@
 				075AB68E14E6B893004AD635 /* AppDelegate.m in Sources */,
 				075AB69714E6B893004AD635 /* FirstViewController.m in Sources */,
 				075AB69E14E6B893004AD635 /* SecondViewController.m in Sources */,
+				075AB6AE14E6C6A3004AD635 /* AppSock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
